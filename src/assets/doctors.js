@@ -67,7 +67,7 @@ export const doctors = [
     {
         imgURL: doctor10,
         label: "Dr. Januka Bhattatai",
-        subtext: "MBBS/MD",
-        post: "Pediatrician"
+        subtext: "MBBS/MD/OBS",
+        post: "Gynecologist"
     },
 ];
