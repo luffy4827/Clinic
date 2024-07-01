@@ -1,35 +1,22 @@
 import React from 'react';
-import camp1 from '../assets/Camp Photos/10.jpg'
-import camp2 from '../assets/Camp Photos/12.jpg'
-import camp3 from '../assets/Camp Photos/7.jpg'
+import camp3 from '../assets/Camp Photos/10.jpg';
 
 const Camp = () => {
   return (
-    <div className='max-w-[1400px] h-[500px] bg-blue-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4'>
-      <div className='lg:top-20 relative lg:col-span-1 col-span-2'>
-        <h3 className='text-5xl font-bold text-blue-500'>Health Camp</h3>
-        <p className='pt-4 text-xl'>
-          Successfully conducted the health camp. 
-        </p>
-        <button className="mt-5 btn btn-outline btn-info">Learn More</button>
-      </div>
+    <div className="bg-blue-100 h-[80vh] w-screen ">
+      <div className="p-3 flex-col md:flex-row h-full flex justify-center items-center md:mx-10 my-11">
+        <div className="md:w-[40%] mt-10">
+          <h1 className="text-5xl md:text-6xl font-bold">
+           Health <span className="text-blue-400">Camp</span> 
+          </h1>
+          <p className="text-xl py-6">
+           Health camp conducted successfully.
+          </p>
+        </div>
 
-      <div className='grid grid-cols-2 col-span-2 gap-2'>
-        <img
-        className='object-cover w-full h-full'
-          src={camp1}
-          alt='/'
-        />
-        <img
-        className='row-span-2 object-cover w-full h-full'
-          src={camp2}
-          alt='/'
-        />
-        <img
-        className='object-cover w-full h-full'
-          src={camp3}
-          alt='/'
-        />
+        <div className="md:w-[60%] md:h-full md:py-10">
+          <img src={camp3} className="w-full h-full object-cover" alt="Health Camp" />
+        </div>
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ import doctor6 from '../assets/Doctor Photos/Dr. Neelima Bajracharya.jpg'
 import doctor7 from '../assets/Doctor Photos/Dr. Rajiv Ranjan Yadav.jpg'
 import doctor8 from '../assets/Doctor Photos/Dr. Sandeep Jaiswal.jpg'
 import doctor9 from "../assets/Doctor Photos/Dr. Sanjeet Kumar Shrestha.jpg"
+import doctor10 from "../assets/Doctor Photos/Dr. Januka Bhattatai.JPG"
 
 export const doctors = [
     {
@@ -60,6 +61,12 @@ export const doctors = [
     {
         imgURL: doctor9,
         label: "Dr. Sanjeet Kumar Shrestha",
+        subtext: "MBBS/MD",
+        post: "Pediatrician"
+    },
+    {
+        imgURL: doctor10,
+        label: "Dr. Januka Bhattatai",
         subtext: "MBBS/MD",
         post: "Pediatrician"
     },
