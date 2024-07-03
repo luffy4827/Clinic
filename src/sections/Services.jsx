@@ -2,6 +2,7 @@ import React from "react";
 import f1 from "../assets/Lab Photos/Digital X-Ray.jpg";
 import f2 from "../assets/Lab Photos/ECG.jpg";
 import f3 from "../assets/Lab Photos/Pathology Lab.jpg";
+import f4 from "../assets/Lab Photos/OPD.png";
 import { Link } from "react-router-dom";
 
 const Services = () => {
@@ -12,7 +13,7 @@ const Services = () => {
     >
       <div className="bg-[#f7f7f7] p-5 lg:p-6 ">
         {/* heading  */}
-        <div className="sm:w-3/4 lg:w-9/12 mx-auto px-2 text-justify">
+        <div className="sm:w-3/4 lg:w-9/12 mx-auto px-2">
           <div className="md:flex md:flex-col mb-5 md:justify-center md:items-center">
             <h1 className="text-3xl md:text-center text-blue-500 font-bold">
               Services
@@ -31,7 +32,7 @@ const Services = () => {
             <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
               <img
                 className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
-                src={f2}
+                src={f4}
                 alt=""
               />
             </div>
@@ -39,17 +40,19 @@ const Services = () => {
             {/* feature0 */}
             <div className="flex flex-1 flex-col items-center lg:items-start">
               <h1 className="text-3xl text-center text-blue-500 font-bold">
-                Foreign Employment
+                All OPD Services
               </h1>
               <p className="text-black my-4 text-justify lg:text-left sm:w-3/4 lg:w-full text-xl">
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero explicabo omnis temporibus maxime voluptates ipsam asperiores qui reprehenderit accusamus corrupti.
+                Our Outpatient Department (OPD) boasts a team of experienced
+                senior and specialist doctors, providing a wide variety of
+                services. Whether you need a routine checkup, immunizations,
+                chronic disease management, or treatment for an acute illness,
+                our OPD offers comprehensive care delivered by highly qualified
+                medical professionals.
               </p>
-              <button
-                type="button"
-                className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
-              >
-                <Link to="">More Info</Link>
-              </button>
+              <Link to="tel:+9779845176825">
+                <button className="btn btn-info text-white">Call Now</button>
+              </Link>
             </div>
           </div>
 
@@ -94,12 +97,9 @@ const Services = () => {
                 rapid turnaround times and unwavering accuracy in diagnosing
                 your health concerns
               </p>
-              <button
-                type="button"
-                className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
-              >
-                <Link to="">More Info</Link>
-              </button>
+              <Link to="tel:+9779845176825">
+                <button className="btn btn-info text-white">Call Now</button>
+              </Link>
             </div>
           </div>
 
@@ -144,12 +144,9 @@ const Services = () => {
                 potential issues like arrhythmias or heart damage. Schedule your
                 ECG today for peace of mind.
               </p>
-              <button
-                type="button"
-                className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
-              >
-                <Link to="">More Info</Link>
-              </button>
+              <Link to="tel:+9779845176825">
+                <button className="btn btn-info text-white">Call Now</button>
+              </Link>
             </div>
           </div>
 
@@ -195,12 +192,9 @@ const Services = () => {
                 plans, and contributes to a greener environment – all in a
                 single, efficient examination.
               </p>
-              <button
-                type="button"
-                className="btn bg-blue-500 hover:bg-blue-600 text-white my-8 border-none"
-              >
-                <Link to="">More Info</Link>
-              </button>
+              <Link to="tel:+9779845176825">
+                <button className="btn btn-info text-white">Call Now</button>
+              </Link>
             </div>
           </div>
 

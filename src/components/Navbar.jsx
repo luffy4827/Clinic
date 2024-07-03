@@ -1,10 +1,15 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import call from "../assets/call.png";
 import whatsapp from "../assets/whats.png";
 
 const Navbar = () => {
+  const phoneNumber = "+9779862781599";
+  const message = "Hello, I have some queries that i want to talk.";
 
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
   const [sticky, setSticky] = useState(false);
 
   useEffect(() => {
@@ -75,7 +80,7 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <Link className="text-2xl font-bold cursor-pointer text-blue-500">
+          <Link className="text-2xl lg:text-3xl font-bold cursor-pointer text-blue-500">
             Sunapati Polyclinic
           </Link>
         </div>
@@ -93,7 +98,9 @@ const Navbar = () => {
               <img src={call} className="w-5 h-5" alt="" />
             </Link>
             <Link
-              to="tel:+9779845176825"
+              to={whatsappURL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block font-bold py-2 px-4 rounded-xl transition duration-300"
             >
               <img src={whatsapp} className="w-6 h-6" alt="" />

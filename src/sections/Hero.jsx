@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -20,9 +21,14 @@ const Hero = () => {
             Nepal’s Best Health care service
           </h1>
           <p className="max-w-[600px] drop-shadow-2xl py-2 text-xl">
-          For all your medical needs, visit us, the leader in Nepal’s healthcare! We offer comprehensive OPD services, advanced ECG, X-ray, complete pathology testing, and specialized Foreign Employment Health Checkups – all under one roof.
+            For all your medical needs, visit us, the leader in Nepal’s
+            healthcare! We offer comprehensive OPD services, advanced ECG,
+            X-ray, complete pathology testing, and specialized Foreign
+            Employment Health Checkups – all under one roof.
           </p>
-          <button className="btn btn-info text-white mt-5">Book Now</button>
+          <Link to="tel:+9779845176825">
+            <button className="btn btn-info text-white">Call Now</button>
+          </Link>
         </div>
       </div>
     </div>

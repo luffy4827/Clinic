@@ -4,6 +4,7 @@ import book1 from "../assets/Lab Photos/Pathology Lab.jpg";
 import book3 from "../assets/Lab Photos/Digital X-Ray.jpg";
 import book4 from "../assets/Gallery/a.jpg";
 import book5 from "../assets/Gallery/c.jpg";
+import { Link } from "react-router-dom";
 
 const Book = () => {
   return (
@@ -39,14 +40,21 @@ const Book = () => {
       {/* Right Side */}
       <div className="flex flex-col h-full justify-center">
         <h3 className="text-5xl md:text-6xl font-bold">
-          Book Your <span className="text-blue-400">Appointment</span> 
+          Book Your <span className="text-blue-400">Appointment</span>
         </h3>
         <p className="text-xl py-6">
-          For any OPD services, senior doctor consultant, whole body check up, foreign employment medical examination, X-Ray, ECG, and any health related queries call or email us to book your appointment in the given contact details below.
+          For any OPD services, senior doctor consultant, whole body check up,
+          foreign employment medical examination, X-Ray, ECG, and any health
+          related queries call or email us to book your appointment in the given
+          contact details below.
         </p>
         <div className="flex gap-3">
-          <button className="btn btn-outline btn-info">Learn More</button>
-          <button className="btn btn-info text-white">Book Now</button>
+          <Link to="https://bit.ly/3RJCFDh" target="blank">
+            <button className="btn btn-outline btn-info">Learn More</button>
+          </Link>
+          <Link to='/contact'>
+            <button className="btn btn-info text-white">Book Now</button>
+          </Link>
         </div>
       </div>
     </div>

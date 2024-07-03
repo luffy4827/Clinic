@@ -2,19 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
-  // const phoneNumber = "+1234567890";
-  // const message = "Hello, I would like to get in touch with you.";
+  const phoneNumber = "+9779862781599";
+  const message = "Hello, I have some queries that i want to talk.";
 
-  // const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-
-  //     <a
-  //     href={whatsappURL}
-  //     target="_blank"
-  //     rel="noopener noreferrer"
-  //     className="inline-block bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-700 transition duration-300"
-  //   >
-  //     Message on WhatsApp
-  //   </a>
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
   return (
     <section class="bg-gray-100">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
@@ -23,7 +16,7 @@ const Contact = () => {
             Visit Our Location
           </h2>
           <p class="mt-4 text-lg text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Stop by our convenient location for all your healthcare needs!
           </p>
         </div>
         <div class="mt-16 lg:mt-20">
@@ -50,23 +43,34 @@ const Contact = () => {
                 <div class="border-t border-gray-200 px-6 py-4">
                   <h3 class="text-lg font-medium text-gray-900">Hours</h3>
                   <p class="mt-1 text-gray-600">
-                    Monday - Friday: 7:00AM — 7:00PM
+                    Sunday - Friday: 7:00AM — 7:00PM
                   </p>
-                  <p class="mt-1 text-gray-600">Saturday: 7:00AM to 10:00PM</p>
-                  <p class="mt-1 text-gray-600">Sunday: Closed</p>
+                  <p class="mt-1 text-gray-600">Saturday: 7:00AM to 10:00AM</p>
                 </div>
                 <div class="border-t border-gray-200 px-6 py-4">
                   <h3 class="text-lg font-medium text-gray-900">Contact</h3>
-                  <p class="mt-1 text-gray-600">Email: info@example.com</p>
+                  <p class="mt-1 text-gray-600">
+                    Email: sunapatipolyclinic@gmail.com
+                  </p>
                   <p class="mt-1 text-gray-600">
                     Phone: +01-5201929, 9862781599
                   </p>
-                  <Link
-                    to="tel:+9779845176825"
-                    className="inline-block bg-blue-500 text-white font-bold py-2 px-4 mt-5 rounded hover:bg-blue-700 transition duration-300"
-                  >
-                    Call Now
-                  </Link>
+                  <div className=" flex gap-4 mt-3">
+                    <Link
+                      to={whatsappURL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button className="btn btn-outline btn-info text-white">
+                        Message on WhatsApp
+                      </button>
+                    </Link>
+                    <Link to="tel:+9779845176825">
+                      <button className="btn btn-info text-white">
+                        Call Now
+                      </button>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
