@@ -2,7 +2,7 @@ import React from "react";
 import f1 from "../assets/Lab Photos/Digital X-Ray.jpg";
 import f2 from "../assets/Lab Photos/ECG.jpg";
 import f3 from "../assets/Lab Photos/Pathology Lab.jpg";
-import f4 from "../assets/Lab Photos/OPD.png";
+import f4 from "../assets/Lab Photos/opd-02.jpg";
 import { Link } from "react-router-dom";
 
 const Services = () => {
