@@ -18,12 +18,9 @@ const About = () => {
 
             <div className="lg:w-1/2 px-4">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-3xl font-bold text-blue-400">
+                <span className="block mb-4 text-3xl font-bold text-sky-500">
                   Why Choose Us
                 </span>
-                {/* <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
-                  Make your customers happy by giving services.
-                </h2> */}
                 <p className="mb-5 text-base text-body-color ">
                   Welcome to Sunapati Polyclinic and Health Center Pvt Ltd, your
                   premier destination for top-notch healthcare services. We are

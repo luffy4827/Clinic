@@ -7,7 +7,7 @@ const Banner = () => {
       <div className=" p-3 flex flex-col md:flex-row md:mx-10 my-11">
         <div className="md:w-[40%] mt-10">
           <h1 className="text-5xl md:text-6xl font-bold">
-            Whole <br /> <span className="text-blue-400">Body Check Up</span> 
+            Whole <br /> <span className="text-sky-500">Body Check Up</span> 
           </h1>
           <p className="text-xl py-6">
             Uncover a complete picture of your health with our discounted

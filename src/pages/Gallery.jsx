@@ -81,7 +81,7 @@ const Gallery = () => {
   return (
     <div className="container mx-auto p-4 flex flex-col justify-center items-center">
       <div>
-        <p className="text-blue-400 font-bold text-5xl mb-5">Gallery</p>
+        <p className="text-sky-500 font-bold text-5xl mb-5">Gallery</p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {images.map((image, index) => (

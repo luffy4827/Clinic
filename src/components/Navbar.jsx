@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`max-w-screen-2xl container mx-auto md:px-20 px-4 dark:bg-slate-800 dark:text-white sticky top-0 left-0 right-0 z-50 ${
+      className={`max-w-screen-2xl container bg-slate-100 mx-auto md:px-20 px-4 sticky top-0 left-0 right-0 z-50 ${
         sticky
           ? "sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out"
           : ""
@@ -75,12 +75,12 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow dark:bg-slate-800 dark:text-white bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-black bg-base-100 rounded-box w-52"
             >
               {navItems}
             </ul>
           </div>
-          <Link className="text-2xl lg:text-3xl font-bold cursor-pointer text-blue-500">
+          <Link className="text-2xl lg:text-3xl font-bold cursor-pointer text-sky-500">
             Sunapati Polyclinic
           </Link>
         </div>

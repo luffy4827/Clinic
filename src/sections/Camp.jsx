@@ -8,7 +8,7 @@ const Camp = () => {
         <div className="md:w-[40%] mt-10">
           <h1 className="text-4xl md:text-6xl font-bold">
             Foreign Employment <br />
-            <span className="text-blue-400"> Health Checkup</span>
+            <span className="text-sky-500"> Health Checkup</span>
           </h1>
           <p className="text-xl py-6">
             Our Outpatient Department (OPD) is equipped to conduct

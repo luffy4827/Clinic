@@ -40,7 +40,7 @@ const Book = () => {
       {/* Right Side */}
       <div className="flex flex-col h-full justify-center">
         <h3 className="text-5xl md:text-6xl font-bold">
-          Book Your <span className="text-blue-400">Appointment</span>
+          Book Your <span className="text-sky-500">Appointment</span>
         </h3>
         <p className="text-xl py-6">
           For any OPD services, senior doctor consultant, whole body check up,

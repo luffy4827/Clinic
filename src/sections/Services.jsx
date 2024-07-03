@@ -15,10 +15,10 @@ const Services = () => {
         {/* heading  */}
         <div className="sm:w-3/4 lg:w-9/12 mx-auto px-2">
           <div className="md:flex md:flex-col mb-5 md:justify-center md:items-center">
-            <h1 className="text-3xl md:text-center text-blue-500 font-bold">
+            <h1 className="text-3xl md:text-center text-sky-500 font-bold">
               Services
             </h1>
-            <hr className="w-28 h-1 rounded-lg bg-blue-400 border-none" />
+            <hr className="w-28 h-1 rounded-lg bg-sky-400 border-none" />
           </div>
           <p className="mt-4  text-xl">
             We provide comprehensive care, including diagnostic services like
@@ -39,7 +39,7 @@ const Services = () => {
 
             {/* feature0 */}
             <div className="flex flex-1 flex-col items-center lg:items-start">
-              <h1 className="text-3xl text-center text-blue-500 font-bold">
+              <h1 className="text-3xl text-center text-sky-500 font-bold">
                 All OPD Services
               </h1>
               <p className="text-black my-4 text-justify lg:text-left sm:w-3/4 lg:w-full text-xl">
@@ -62,7 +62,7 @@ const Services = () => {
             hidden
             lg:block
             overflow-hidden
-            bg-blue-500
+            bg-sky-400
             rounded-l-full
             absolute
             h-56
@@ -86,7 +86,7 @@ const Services = () => {
             </div>
             {/* content  */}
             <div className="flex flex-1 flex-col items-center lg:items-start">
-              <h1 className="text-3xl text-blue-500 font-bold">
+              <h1 className="text-3xl text-sky-500 font-bold">
                 Fully & Semi-Automated <br />
                 Pathology Lab
               </h1>
@@ -109,7 +109,7 @@ const Services = () => {
             hidden
             lg:block
             overflow-hidden
-            bg-blue-500
+            bg-sky-400
             rounded-r-full
             absolute
             h-56
@@ -133,7 +133,7 @@ const Services = () => {
             </div>
 
             <div className="flex flex-1 flex-col items-center lg:items-start">
-              <h1 className="text-3xl text-center text-blue-500 font-bold">
+              <h1 className="text-3xl text-center text-sky-500 font-bold">
                 ECG
               </h1>
               <p className="text-black my-4 text-justify lg:text-left sm:w-3/4 lg:w-full text-xl">
@@ -156,7 +156,7 @@ const Services = () => {
             hidden
             lg:block
             overflow-hidden
-            bg-blue-500
+            bg-sky-400
             rounded-l-full
             absolute
             h-56
@@ -182,7 +182,7 @@ const Services = () => {
 
             {/* content */}
             <div className="flex flex-1 flex-col items-center lg:items-start">
-              <h1 className="text-3xl text-blue-500 font-bold">
+              <h1 className="text-3xl text-sky-500 font-bold">
                 Digital X-Ray
               </h1>
               <p className="text-black my-4 text-justify lg:text-left sm:w-3/4 lg:w-full text-xl">
@@ -204,7 +204,7 @@ const Services = () => {
             hidden
             lg:block
             overflow-hidden
-            bg-blue-500
+            bg-sky-400
             rounded-r-full
             absolute
             h-56
