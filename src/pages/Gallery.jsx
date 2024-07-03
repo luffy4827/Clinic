@@ -19,6 +19,11 @@ import gallery17 from "../assets/Camp in Cage Fitness/j.jpeg";
 import gallery18 from "../assets/Camp in Cage Fitness/k.jpeg";
 import gallery19 from "../assets/Camp in Cage Fitness/l.jpeg";
 import gallery20 from "../assets/Camp in Cage Fitness/m.jpeg";
+import gallery33 from "../assets/Camp in Cage Fitness/n.jpeg";
+import gallery34 from "../assets/Camp in Cage Fitness/o.jpg";
+import gallery35 from "../assets/Camp in Cage Fitness/p.jpg";
+import gallery36 from "../assets/Camp in Cage Fitness/r.jpg";
+import gallery37 from "../assets/Camp in Cage Fitness/s.jpg";
 import gallery21 from "../assets/Camp Photos/2.jpg";
 import gallery22 from "../assets/Camp Photos/3.jpg";
 import gallery23 from "../assets/Camp Photos/5.jpg";
@@ -30,7 +35,6 @@ import gallery28 from "../assets/Camp Photos/11.jpg";
 import gallery29 from "../assets/Camp Photos/12.jpg";
 import gallery30 from "../assets/Camp Photos/13.jpg";
 import gallery31 from "../assets/Camp Photos/14.jpg";
-import gallery32 from "../assets/Camp in Cage Fitness/n.jpeg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -39,6 +43,11 @@ const Gallery = () => {
     gallery1,
     gallery2,
     gallery20,
+    gallery33,
+    gallery34,
+    gallery35,
+    gallery36,
+    gallery37,
     gallery3,
     gallery5,
     gallery13,
@@ -67,7 +76,6 @@ const Gallery = () => {
     gallery29,
     gallery30,
     gallery31,
-    gallery32
   ];
 
   const handleImageClick = (image) => {
