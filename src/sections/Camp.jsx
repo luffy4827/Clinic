@@ -1,5 +1,5 @@
 import React from "react";
-import camp3 from "../assets/Camp Photos/10.jpg";
+import camp3 from "../assets/Foreign Employment.jpg";
 
 const Camp = () => {
   return (
@@ -22,7 +22,7 @@ const Camp = () => {
         <div className="md:w-[60%] md:h-full md:py-10">
           <img
             src={camp3}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-fit"
             alt="Health Camp"
           />
         </div>
