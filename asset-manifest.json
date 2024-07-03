@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Clinic/static/css/main.251f4694.css",
-    "main.js": "/Clinic/static/js/main.bf2dd923.js",
+    "main.css": "/Clinic/static/css/main.c417764c.css",
+    "main.js": "/Clinic/static/js/main.acf4f964.js",
     "static/media/g.jpg": "/Clinic/static/media/g.2bb003f1a76ba9ba5b81.jpg",
     "static/media/f.jpg": "/Clinic/static/media/f.9c97ff67cc96bed02bc2.jpg",
     "static/media/a.jpg": "/Clinic/static/media/a.f853566175edd32958cd.jpg",
@@ -13,6 +13,7 @@
     "static/media/e.jpg": "/Clinic/static/media/e.3ca3a5406cf6c44e677f.jpg",
     "static/media/Logo.png": "/Clinic/static/media/Logo.a9c5e9f88ed2edfc58e0.png",
     "static/media/Dr. Januka Bhattatai.JPG": "/Clinic/static/media/Dr. Januka Bhattatai.23177bddd85c1244483b.JPG",
+    "static/media/b.jpg": "/Clinic/static/media/b.82e14b494c4b646ab189.jpg",
     "static/media/9.jpg": "/Clinic/static/media/9.fa33b71a4065948c5137.jpg",
     "static/media/14.jpg": "/Clinic/static/media/14.116f1777e84e9665bbb0.jpg",
     "static/media/10.jpg": "/Clinic/static/media/10.006fade2f384cc0d1321.jpg",
@@ -21,7 +22,6 @@
     "static/media/2.jpg": "/Clinic/static/media/2.0c576d5f465a2545b305.jpg",
     "static/media/7.jpg": "/Clinic/static/media/7.50e4cfcf62f31374f03f.jpg",
     "static/media/3.jpg": "/Clinic/static/media/3.b7fa45b4733762c52349.jpg",
-    "static/media/b.jpg": "/Clinic/static/media/b.e4f911520737b91b3d69.jpg",
     "static/media/11.jpg": "/Clinic/static/media/11.f147d96a3c2e8e00b434.jpg",
     "static/media/5.jpg": "/Clinic/static/media/5.0ef04c74759b9f2d2f85.jpg",
     "static/media/a.jpeg": "/Clinic/static/media/a.d809dfc918db7a9a8c80.jpeg",
@@ -56,11 +56,11 @@
     "static/media/call.png": "/Clinic/static/media/call.1cb5c47b7a7b1caf47ab.png",
     "static/media/Dr. Neelima Bajracharya.jpg": "/Clinic/static/media/Dr. Neelima Bajracharya.fef7bf011b07f59e334c.jpg",
     "index.html": "/Clinic/index.html",
-    "main.251f4694.css.map": "/Clinic/static/css/main.251f4694.css.map",
-    "main.bf2dd923.js.map": "/Clinic/static/js/main.bf2dd923.js.map"
+    "main.c417764c.css.map": "/Clinic/static/css/main.c417764c.css.map",
+    "main.acf4f964.js.map": "/Clinic/static/js/main.acf4f964.js.map"
   },
   "entrypoints": [
-    "static/css/main.251f4694.css",
-    "static/js/main.bf2dd923.js"
+    "static/css/main.c417764c.css",
+    "static/js/main.acf4f964.js"
   ]
 }
