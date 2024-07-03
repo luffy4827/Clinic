@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Clinic/static/css/main.c417764c.css",
-    "main.js": "/Clinic/static/js/main.acf4f964.js",
+    "main.js": "/Clinic/static/js/main.d6e11d88.js",
     "static/media/g.jpg": "/Clinic/static/media/g.2bb003f1a76ba9ba5b81.jpg",
     "static/media/f.jpg": "/Clinic/static/media/f.9c97ff67cc96bed02bc2.jpg",
     "static/media/a.jpg": "/Clinic/static/media/a.f853566175edd32958cd.jpg",
@@ -13,7 +13,6 @@
     "static/media/e.jpg": "/Clinic/static/media/e.3ca3a5406cf6c44e677f.jpg",
     "static/media/Logo.png": "/Clinic/static/media/Logo.a9c5e9f88ed2edfc58e0.png",
     "static/media/Dr. Januka Bhattatai.JPG": "/Clinic/static/media/Dr. Januka Bhattatai.23177bddd85c1244483b.JPG",
-    "static/media/b.jpg": "/Clinic/static/media/b.82e14b494c4b646ab189.jpg",
     "static/media/9.jpg": "/Clinic/static/media/9.fa33b71a4065948c5137.jpg",
     "static/media/14.jpg": "/Clinic/static/media/14.116f1777e84e9665bbb0.jpg",
     "static/media/10.jpg": "/Clinic/static/media/10.006fade2f384cc0d1321.jpg",
@@ -22,6 +21,7 @@
     "static/media/2.jpg": "/Clinic/static/media/2.0c576d5f465a2545b305.jpg",
     "static/media/7.jpg": "/Clinic/static/media/7.50e4cfcf62f31374f03f.jpg",
     "static/media/3.jpg": "/Clinic/static/media/3.b7fa45b4733762c52349.jpg",
+    "static/media/b.jpg": "/Clinic/static/media/b.e4f911520737b91b3d69.jpg",
     "static/media/11.jpg": "/Clinic/static/media/11.f147d96a3c2e8e00b434.jpg",
     "static/media/5.jpg": "/Clinic/static/media/5.0ef04c74759b9f2d2f85.jpg",
     "static/media/a.jpeg": "/Clinic/static/media/a.d809dfc918db7a9a8c80.jpeg",
@@ -36,15 +36,19 @@
     "static/media/j.jpeg": "/Clinic/static/media/j.b3a3f0082b77449e90f4.jpeg",
     "static/media/d.jpeg": "/Clinic/static/media/d.58f338cb1b12c65e4a52.jpeg",
     "static/media/Jivan Kumar KC.jpg": "/Clinic/static/media/Jivan Kumar KC.1cdb1fa68c2eeec9709f.jpg",
+    "static/media/s.jpg": "/Clinic/static/media/s.84fc9c6a5fddbf102cfe.jpg",
     "static/media/whats.png": "/Clinic/static/media/whats.545a011ba96a66a3a08b.png",
     "static/media/n.jpeg": "/Clinic/static/media/n.bc060419e47bb729b930.jpeg",
+    "static/media/p.jpg": "/Clinic/static/media/p.f88a9febc59c88d83805.jpg",
     "static/media/g.JPEG": "/Clinic/static/media/g.23b84ad7168278cda8b4.JPEG",
     "static/media/Dr. Amit Jha.jpg": "/Clinic/static/media/Dr. Amit Jha.6102671d04f4223112a7.jpg",
     "static/media/h.JPEG": "/Clinic/static/media/h.47ffedf158e6fc97f52f.JPEG",
     "static/media/f.jpeg": "/Clinic/static/media/f.891c9e8f3ae88247fb43.jpeg",
     "static/media/Dr. Rajiv Ranjan Yadav.jpg": "/Clinic/static/media/Dr. Rajiv Ranjan Yadav.92ff2697dc0079c84a1b.jpg",
+    "static/media/o.jpg": "/Clinic/static/media/o.70f4691f32f6ea1f6f9d.jpg",
     "static/media/e.jpeg": "/Clinic/static/media/e.c87de5f98c847dcce9d9.jpeg",
     "static/media/i.JPEG": "/Clinic/static/media/i.a9b3c5c89ff2b050ecc6.JPEG",
+    "static/media/r.jpg": "/Clinic/static/media/r.c8cc20377282858ef53b.jpg",
     "static/media/ECG.jpg": "/Clinic/static/media/ECG.c5f55764c9accefadbdf.jpg",
     "static/media/Dr. Anjuli Limbu.jpg": "/Clinic/static/media/Dr. Anjuli Limbu.8d41dfbbf43c3ee1c0bc.jpg",
     "static/media/opd-02.jpg": "/Clinic/static/media/opd-02.4b2ed7d3d22eb68ba62d.jpg",
@@ -57,10 +61,10 @@
     "static/media/Dr. Neelima Bajracharya.jpg": "/Clinic/static/media/Dr. Neelima Bajracharya.fef7bf011b07f59e334c.jpg",
     "index.html": "/Clinic/index.html",
     "main.c417764c.css.map": "/Clinic/static/css/main.c417764c.css.map",
-    "main.acf4f964.js.map": "/Clinic/static/js/main.acf4f964.js.map"
+    "main.d6e11d88.js.map": "/Clinic/static/js/main.d6e11d88.js.map"
   },
   "entrypoints": [
     "static/css/main.c417764c.css",
-    "static/js/main.acf4f964.js"
+    "static/js/main.d6e11d88.js"
   ]
 }
