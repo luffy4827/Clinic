@@ -4,7 +4,7 @@ import camp3 from "../assets/Foreign Employment.jpg";
 const Camp = () => {
   return (
     <div className="bg-blue-100 lg:h-[80vh] w-screen ">
-      <div className="p-3 flex-col md:flex-row h-full flex justify-center items-center md:mx-10 my-11">
+      <div className="p-3 flex-col md:flex-row h-full flex justify-center items-center md:mx-10">
         <div className="md:w-[40%] mt-10">
           <h1 className="text-4xl md:text-6xl font-bold">
             Foreign Employment <br />
