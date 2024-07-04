@@ -24,7 +24,7 @@ const Footer = () => {
       {/* social Links */}
       <nav>
         <div className="grid grid-flow-col gap-4">
-          <Link to="mailto:info@healthcamp.com">
+          <Link to="mailto:sunapatipolyclinic@gmail.com">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
