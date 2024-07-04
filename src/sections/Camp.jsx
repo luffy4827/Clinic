@@ -23,7 +23,7 @@ const Camp = () => {
           <img
             src={camp3}
             className="w-full h-full object-fit"
-            alt="Health Camp"
+            alt="Foreign Employment"
           />
         </div>
       </div>
