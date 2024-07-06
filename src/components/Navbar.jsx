@@ -80,7 +80,7 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <Link className="text-2xl lg:text-3xl font-bold cursor-pointer text-sky-500">
+          <Link to="/" className="text-2xl lg:text-3xl font-bold cursor-pointer text-sky-500">
             Sunapati Polyclinic
           </Link>
         </div>

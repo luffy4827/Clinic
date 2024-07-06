@@ -27,7 +27,7 @@ const Services = () => {
             Department (OPD) services to address your healthcare needs.
           </p>
         </div>
-        <div className="relative mt-20 lg:mt-52">
+        <div className="relative mt-20">
           <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
             <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
               <img
@@ -75,7 +75,7 @@ const Services = () => {
         </div>
 
         {/* feature1  */}
-        <div className="relative mt-20 lg:mt-24">
+        <div className="relative mt-20 lg:mt-52">
           <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
             <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
               <img

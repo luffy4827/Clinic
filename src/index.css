@@ -5,7 +5,8 @@
 @tailwind utilities;
 
 * {
-    @apply transition-colors duration-200 ease-linear;
+    @apply transition-colors duration-200 ease-linear cursor-default;
+
 
 }
 
@@ -21,4 +22,8 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+svg{
+  @apply cursor-pointer;
 }
