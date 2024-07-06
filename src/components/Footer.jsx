@@ -58,7 +58,7 @@ const Footer = () => {
       </nav>
       <div className="order-2 lg:order-3">
         <aside className="flex flex-col justify-center items-center">
-          <img src={footer} className="w-20 h-20" alt="" />
+          <img src={footer} className="w-20 h-20 bg-sky-500 rounded-full" alt="" />
           <p className="font-bold text-center">
             Sunapati Polyclinic & Health Center Pvt Ltd. <br />
             Balkumari, Lalitpur, Nepal <br /> Harit Colony way <br />
