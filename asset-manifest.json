@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Clinic/static/css/main.cfc1e1b0.css",
-    "main.js": "/Clinic/static/js/main.0332931f.js",
+    "main.js": "/Clinic/static/js/main.9746532e.js",
     "static/media/g.jpg": "/Clinic/static/media/g.2bb003f1a76ba9ba5b81.jpg",
     "static/media/f.jpg": "/Clinic/static/media/f.9c97ff67cc96bed02bc2.jpg",
     "static/media/a.jpg": "/Clinic/static/media/a.f853566175edd32958cd.jpg",
@@ -61,10 +61,10 @@
     "static/media/Dr. Neelima Bajracharya.jpg": "/Clinic/static/media/Dr. Neelima Bajracharya.fef7bf011b07f59e334c.jpg",
     "index.html": "/Clinic/index.html",
     "main.cfc1e1b0.css.map": "/Clinic/static/css/main.cfc1e1b0.css.map",
-    "main.0332931f.js.map": "/Clinic/static/js/main.0332931f.js.map"
+    "main.9746532e.js.map": "/Clinic/static/js/main.9746532e.js.map"
   },
   "entrypoints": [
     "static/css/main.cfc1e1b0.css",
-    "static/js/main.0332931f.js"
+    "static/js/main.9746532e.js"
   ]
 }
