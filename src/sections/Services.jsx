@@ -50,7 +50,7 @@ const Services = () => {
                 our OPD offers comprehensive care delivered by highly qualified
                 medical professionals.
               </p>
-              <Link to="tel:+9779845176825">
+              <Link to="tel:01-5201929">
                 <button className="btn btn-info text-white">Call Now</button>
               </Link>
             </div>
@@ -97,7 +97,7 @@ const Services = () => {
                 rapid turnaround times and unwavering accuracy in diagnosing
                 your health concerns
               </p>
-              <Link to="tel:+9779845176825">
+              <Link to="tel:015201929">
                 <button className="btn btn-info text-white">Call Now</button>
               </Link>
             </div>
@@ -144,7 +144,7 @@ const Services = () => {
                 potential issues like arrhythmias or heart damage. Schedule your
                 ECG today for peace of mind.
               </p>
-              <Link to="tel:+9779845176825">
+              <Link to="tel:015201929">
                 <button className="btn btn-info text-white">Call Now</button>
               </Link>
             </div>
@@ -192,7 +192,7 @@ const Services = () => {
                 plans, and contributes to a greener environment – all in a
                 single, efficient examination.
               </p>
-              <Link to="tel:+9779845176825">
+              <Link to="tel:015201929">
                 <button className="btn btn-info text-white">Call Now</button>
               </Link>
             </div>

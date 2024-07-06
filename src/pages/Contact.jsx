@@ -65,7 +65,7 @@ const Contact = () => {
                         Message on WhatsApp
                       </button>
                     </Link>
-                    <Link to="tel:+9779845176825">
+                    <Link to="tel:015201929">
                       <button className="btn btn-info text-white">
                         Call Now
                       </button>
