@@ -15,7 +15,7 @@ const Saying = () => {
         <div className="flex flex-col items-center justify-center">
           <img src={chairman} className="w-36 h-36 rounded-full" alt="" />
           <p className="text-xl font-bold" > Jivan Kumar KC</p> <br />
-          <p className="text-lg">Chairman</p>
+          <p className="text-lg text-sky-500">Chairman</p>
         </div>
       </div>
     </div>
